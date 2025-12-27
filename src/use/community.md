@@ -42,3 +42,18 @@ Author: 木子
 [NcatBot](https://github.com/liyihao1110/NcatBot)
 :::
 
+::: details .Net 开发 SDK：NapPlana.NET
+
+Author: stevesensei
+
+一个基于.NET 9.0的NapCatQQ框架的SDK实现，旨在为开发者提供在.NET平台下开发QQ机器人的又一个解决方案
+
+目前还在紧张的开发，但基础功能已经可用
+
+- [仓库地址](https://github.com/napplana/NapPlana.NET)
+
+- [文档](https://napplana.net)
+
+- [API文档](https://ref.napplana.net)
+
+:::
