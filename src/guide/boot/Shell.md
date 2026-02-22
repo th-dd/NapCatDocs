@@ -72,7 +72,7 @@ NapCatWinBootMain.exe 10001
 [NapCatQQ-Desktop](https://github.com/NapNeko/NapCatQQ-Desktop)
 
 ## NapCat.Installer - Linux 一键使用脚本(支持Ubuntu 20+/Debian 10+/Centos9)    <Badge type="tip" text="recommend" /> 
-docker 安装卡住的请使用下方项目并自行换源
+Docker 安装卡住的请使用下方项目并自行换源
 
 ::: code-group
 ```bash [通用安装]
@@ -132,7 +132,7 @@ https://nclatest.znin.net/NapNeko/NapCat-Installer/main/script/install.sh \
       - `--qq`, `--mode`, `--confirm`: Docker 安装时使用的参数
 
   2. `--cli` [y/n]: 是否安装 NapCat TUI-CLI  (命令行UI工具) 
-      - `NapCat TUI-CLI` : 允许你在 ssh、没有桌面、WebUI 难以使用的情况下可视化交互配置 Napcat
+      - `NapCat TUI-CLI` : 允许你在 ssh、没有桌面、WebUI 难以使用的情况下可视化交互配置 NapCat
 
   3. `--proxy` [0-6]: 指定下载时使用的代理服务器序号, Docker 安装可选 0-7, shell 安装可选 0-5
 
@@ -179,7 +179,7 @@ Linux AppImage格式
 
 仓库地址: [NapCat.Docker](https://github.com/NapNeko/NapCat-Docker)
 
-除了常规的 docker run 样式的安装方法,此方法支持 compose 一键模板部署 astrbot, koishi, nonebot 详细参考 Readme 处 `一键模板化配置` 部分
+除了常规的 docker run 样式的安装方法,此方法支持 compose 一键模板部署 AstrBot, Koishi, nonebot 详细参考 Readme 处 `一键模板化配置` 部分
 
 ::: warning 群晖 DSM 用户注意
 在群晖 DSM 环境的 Docker（Container Manager）中部署 NapCat 时，可能会遇到权限问题导致 `permission denied` 错误，例如：
@@ -200,7 +200,7 @@ Error: EACCES: permission denied, mkdir '/app/.config/QQ/NapCat/temp'
 6. 点击 **保存** 后重新启动容器
 :::
 
-## NapCat.MacOs - MacOs安装工具 <Badge type="tip" text="recommend" />
+## NapCat.MacOS - MacOS 安装工具 <Badge type="tip" text="recommend" />
 
 [前往下载](https://github.com/NapNeko/NapCat-Mac-Installer/releases/)
 
